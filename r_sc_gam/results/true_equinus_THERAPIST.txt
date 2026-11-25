@@ -1,0 +1,57 @@
+==============================================================================
+R-SC-GAM  CLINICAL DECISION-SUPPORT REPORT  --  True Equinus
+==============================================================================
+Classification : Winters-Gage-Hicks Type II / Rodda Group I
+Typical GMFCS  : I-II
+Description    : Persistent ankle plantarflexion through stance (toe-walking);
+knee may hyperextend (recurvatum). Ankle is the primary lesion.
+
+-- Kinematic deviation from normal (deg, at phase centres) ------------------
+ phase     IC     LR    MSt    TSt    PSw    ISw    MSw    TSw
+   hip   +0.0   +0.0   +0.0   +0.0   +0.0   +0.0   +0.0   +0.0
+  knee   -3.2   -4.0   -6.3   -7.0   -3.0   +0.0   +0.0   +0.0
+ ankle  -12.2  -13.2  -15.6  -18.0  -10.5   -4.1   -4.3   -6.7
+
+-- Spasticity rule findings (velocity-dependent) ----------------------------
+   [FLAG] Gastrocnemius          score=0.84  evidence phases: MSt,TSt
+   [FLAG] Soleus                 score=0.84  evidence phases: MSt,TSt
+
+-- Weakness findings ---------------------------------------------------------
+   [WEAK] Tibialis anterior      severity=0.54
+
+-- Rehabilitation priority ranking ------------------------------------------
+rank muscle    RPI   spas  weak   dev  intervention
+   1    SOL   47.3   0.84  0.00  0.32  Spasticity management
+   2    GAS   44.4   0.84  0.00  0.22  Spasticity management
+   3     TA   22.9   0.00  0.54  0.32  Strengthening / motor control
+   4     RF    7.2   0.12  0.00  0.05  Monitor
+   5    VAS    3.2   0.00  0.00  0.10  Monitor
+   6    HAM    1.6   0.00  0.00  0.05  Monitor
+   7   GMAX    0.0   0.00  0.00  0.00  Monitor
+   8   ILIO    0.0   0.00  0.00  0.00  Monitor
+   9   GMED    0.0   0.00  0.00  0.00  Monitor
+  10    ADD    0.0   0.00  0.00  0.00  Monitor
+
+-- Intervention rationale (top 3) -------------------------------------------
+   * Soleus (Spasticity management):
+       Velocity-dependent over-activity dominates. Stretching / serial
+       casting / focal BoNT-A; if multi-level & severe consider SDR or
+       tone-reducing surgery. Pair with antagonist strengthening +
+       orthosis.
+   * Gastrocnemius (Spasticity management):
+       Velocity-dependent over-activity dominates. Stretching / serial
+       casting / focal BoNT-A; if multi-level & severe consider SDR or
+       tone-reducing surgery. Pair with antagonist strengthening +
+       orthosis.
+   * Tibialis anterior (Strengthening / motor control):
+       Weakness / poor timing dominates. Progressive resistance training,
+       FES or task-specific motor training; orthosis for compensation
+       while strength is rebuilt.
+
+-- Archetype clinical note ---------------------------------------------------
+   Dynamic gastroc-soleus spasticity. First-line: stretch / serial casting
+   / BoNT-A to triceps surae + AFO. Fixed contracture -> consider gastroc
+   lengthening.
+
+DISCLAIMER: literature-informed decision support, NOT a prescription. Confirm with instrumented 3D gait analysis, dynamic EMG and physical examination.
+==============================================================================

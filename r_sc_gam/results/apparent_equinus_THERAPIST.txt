@@ -1,0 +1,58 @@
+==============================================================================
+R-SC-GAM  CLINICAL DECISION-SUPPORT REPORT  --  Apparent Equinus
+==============================================================================
+Classification : Rodda Group III
+Typical GMFCS  : II-III
+Description    : Toe-walking appearance with NORMAL ankle dorsiflexion ROM;
+the apparent equinus is produced by excessive hip and knee flexion in stance.
+Treating the ankle here is a classic error.
+
+-- Kinematic deviation from normal (deg, at phase centres) ------------------
+ phase     IC     LR    MSt    TSt    PSw    ISw    MSw    TSw
+   hip  +18.1  +18.3  +19.0  +20.0  +18.0  +18.0  +18.0  +18.0
+  knee  +15.1  +15.6  +17.0  +16.5  +10.7   +1.1   +0.2   +9.8
+ ankle   -2.0   -1.8   -1.2   -0.4   -0.2   -0.6   -1.2   -1.7
+
+-- Spasticity rule findings (velocity-dependent) ----------------------------
+   [FLAG] Iliopsoas              score=0.68  evidence phases: TSt
+   [FLAG] Hamstrings             score=0.76  evidence phases: TSw,IC
+
+-- Weakness findings ---------------------------------------------------------
+   [WEAK] Vasti (quadriceps)     severity=0.60
+   [WEAK] Gluteus maximus        severity=0.60
+
+-- Rehabilitation priority ranking ------------------------------------------
+rank muscle    RPI   spas  weak   dev  intervention
+   1    HAM   46.0   0.76  0.00  0.40  Spasticity management
+   2   ILIO   44.3   0.68  0.00  0.46  Spasticity management
+   3   GMAX   28.9   0.00  0.60  0.46  Strengthening / motor control
+   4    VAS   24.8   0.00  0.60  0.32  Strengthening / motor control
+   5    ADD   13.8   0.00  0.00  0.46  Biomechanical / orthotic
+   6   GMED   13.8   0.00  0.00  0.46  Biomechanical / orthotic
+   7     RF   11.9   0.00  0.00  0.40  Monitor
+   8    GAS    8.6   0.06  0.00  0.19  Monitor
+   9    SOL    3.9   0.06  0.00  0.04  Monitor
+  10     TA    1.1   0.00  0.00  0.04  Monitor
+
+-- Intervention rationale (top 3) -------------------------------------------
+   * Hamstrings (Spasticity management):
+       Velocity-dependent over-activity dominates. Stretching / serial
+       casting / focal BoNT-A; if multi-level & severe consider SDR or
+       tone-reducing surgery. Pair with antagonist strengthening +
+       orthosis.
+   * Iliopsoas (Spasticity management):
+       Velocity-dependent over-activity dominates. Stretching / serial
+       casting / focal BoNT-A; if multi-level & severe consider SDR or
+       tone-reducing surgery. Pair with antagonist strengthening +
+       orthosis.
+   * Gluteus maximus (Strengthening / motor control):
+       Weakness / poor timing dominates. Progressive resistance training,
+       FES or task-specific motor training; orthosis for compensation
+       while strength is rebuilt.
+
+-- Archetype clinical note ---------------------------------------------------
+   Do NOT lengthen the heel cord. Target hamstrings & psoas (spasticity
+   management + lengthening), strengthen quadriceps and hip extensors.
+
+DISCLAIMER: literature-informed decision support, NOT a prescription. Confirm with instrumented 3D gait analysis, dynamic EMG and physical examination.
+==============================================================================

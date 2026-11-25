@@ -1,0 +1,50 @@
+==============================================================================
+R-SC-GAM  CLINICAL DECISION-SUPPORT REPORT  --  Stiff-Knee Gait
+==============================================================================
+Classification : Sutherland & Davids (swing-phase knee dysfunction)
+Typical GMFCS  : I-II
+Description    : Reduced and delayed peak knee flexion in swing from rectus
+femoris co-spasticity, impairing foot clearance.
+
+-- Kinematic deviation from normal (deg, at phase centres) ------------------
+ phase     IC     LR    MSt    TSt    PSw    ISw    MSw    TSw
+   hip   +0.0   +0.0   +0.0   +0.0   +0.0   +0.0   +0.0   +0.0
+  knee   +2.0   +2.0   +2.0   +2.0   -5.0  -18.0  -15.8   -3.6
+ ankle   -5.0   -5.2   -5.5   -6.0   -5.8   -5.6   -5.3   -5.1
+
+-- Spasticity rule findings (velocity-dependent) ----------------------------
+   [FLAG] Rectus femoris         score=0.74  evidence phases: PSw,ISw
+   [FLAG] Gastrocnemius          score=0.37  evidence phases: MSt,TSt
+   [FLAG] Soleus                 score=0.37  evidence phases: MSt,TSt
+
+-- Rehabilitation priority ranking ------------------------------------------
+rank muscle    RPI   spas  weak   dev  intervention
+   1     RF   35.8   0.74  0.00  0.09  Spasticity management
+   2    SOL   21.8   0.37  0.00  0.17  Monitor
+   3    GAS   21.8   0.37  0.00  0.17  Monitor
+   4    HAM    6.1   0.08  0.00  0.09  Monitor
+   5    VAS    5.0   0.00  0.00  0.17  Monitor
+   6     TA    5.0   0.00  0.00  0.17  Monitor
+   7   GMAX    0.0   0.00  0.00  0.00  Monitor
+   8   ILIO    0.0   0.00  0.00  0.00  Monitor
+   9   GMED    0.0   0.00  0.00  0.00  Monitor
+  10    ADD    0.0   0.00  0.00  0.00  Monitor
+
+-- Intervention rationale (top 3) -------------------------------------------
+   * Rectus femoris (Spasticity management):
+       Velocity-dependent over-activity dominates. Stretching / serial
+       casting / focal BoNT-A; if multi-level & severe consider SDR or
+       tone-reducing surgery. Pair with antagonist strengthening +
+       orthosis.
+   * Soleus (Monitor):
+       Low priority; routine monitoring and maintenance stretching.
+   * Gastrocnemius (Monitor):
+       Low priority; routine monitoring and maintenance stretching.
+
+-- Archetype clinical note ---------------------------------------------------
+   Confirm with dynamic EMG (rectus active in swing). Rectus femoris
+   transfer / BoNT-A to rectus; ensure adequate knee-flexion velocity at
+   toe-off.
+
+DISCLAIMER: literature-informed decision support, NOT a prescription. Confirm with instrumented 3D gait analysis, dynamic EMG and physical examination.
+==============================================================================

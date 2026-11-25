@@ -1,0 +1,11 @@
+rank,muscle,full_name,spasticity,weakness,deviation,RPI,intervention,rationale
+1,TA,Tibialis anterior,0.0,0.539,0.19,19.2,Strengthening / motor control,"Weakness / poor timing dominates. Progressive resistance training, FES or task-specific motor training; orthosis for compensation while strength is rebuilt."
+2,ILIO,Iliopsoas,0.213,0.0,0.157,14.3,Monitor,Low priority; routine monitoring and maintenance stretching.
+3,HAM,Hamstrings,0.213,0.0,0.139,13.8,Monitor,Low priority; routine monitoring and maintenance stretching.
+4,SOL,Soleus,0.0,0.0,0.19,5.7,Monitor,Low priority; routine monitoring and maintenance stretching.
+5,GMAX,Gluteus maximus,0.0,0.0,0.157,4.7,Monitor,Low priority; routine monitoring and maintenance stretching.
+6,GMED,Gluteus medius,0.0,0.0,0.157,4.7,Monitor,Low priority; routine monitoring and maintenance stretching.
+7,ADD,Hip adductors,0.0,0.0,0.157,4.7,Monitor,Low priority; routine monitoring and maintenance stretching.
+8,GAS,Gastrocnemius,0.0,0.0,0.156,4.7,Monitor,Low priority; routine monitoring and maintenance stretching.
+9,RF,Rectus femoris,0.0,0.0,0.139,4.2,Monitor,Low priority; routine monitoring and maintenance stretching.
+10,VAS,Vasti (quadriceps),0.0,0.0,0.121,3.6,Monitor,Low priority; routine monitoring and maintenance stretching.

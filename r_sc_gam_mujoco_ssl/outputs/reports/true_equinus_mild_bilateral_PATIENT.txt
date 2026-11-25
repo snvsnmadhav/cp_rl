@@ -1,0 +1,37 @@
+PATIENT / PARENT WALKING PATTERN REPORT
+================================================================
+Pattern simulated: True Equinus
+Severity modelled: mild
+Side: bilateral
+
+YOUR WALKING PATTERN SUMMARY  --  closest match: True Equinus
+----------------------------------------------------------------
+Your walking pattern most closely resembles a recognised pattern
+called 'True Equinus'. In plain terms: persistent ankle
+plantarflexion through stance (toe-walking); knee may
+hyperextend (recurvatum). ankle is the primary lesion.
+
+What this means for your therapy focus:
+  - Soleus: is working too hard / too tight -> focus on stretching & tone relief
+  - Gastrocnemius: is working too hard / too tight -> focus on stretching & tone relief
+  - Tibialis anterior: is weak -> focus on strengthening it
+
+These are general, evidence-based directions. Your therapist or
+doctor will tailor the exact exercises, braces or treatments to
+you after an in-person assessment.
+
+----------------------------------------------------------------
+What the computer simulation added:
+The simulation estimated that the knee joint and Soleus muscle
+group may be carrying more mechanical load than normal during
+the PSw phase of walking.
+
+Movement goal this simulation highlights:
+  Dorsiflexion control, plantarflexor tone monitoring, heel
+  contact training. Bilateral tone pattern control, step-width,
+  pelvic stability.
+
+IMPORTANT: This report is produced by a computer model. It does
+NOT diagnose your child's condition or prescribe treatment. Your
+therapist and doctor will explain what these findings mean for
+your child's specific situation and plan therapy accordingly.

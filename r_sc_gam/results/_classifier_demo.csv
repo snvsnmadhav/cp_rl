@@ -1,0 +1,7 @@
+rank,archetype,key,rms_deg,similarity
+1,Crouch Gait,crouch,1.62,0.86
+2,Apparent Equinus,apparent_equinus,7.18,0.582
+3,Jump Gait,jump,14.8,0.403
+4,Drop Foot,drop_foot,16.54,0.377
+5,Stiff-Knee Gait,stiff_knee,19.97,0.334
+6,True Equinus,true_equinus,21.86,0.314

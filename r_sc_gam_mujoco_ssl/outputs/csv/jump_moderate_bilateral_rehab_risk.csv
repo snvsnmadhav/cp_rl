@@ -1,0 +1,11 @@
+rank,muscle,full_name,rpi_norm,joint_loading,stress_burden,strain_burden,spasticity_score,asymmetry_burden,composite_risk,intervention
+1,SOL,Soleus,0.423,0.303,0.008,0.144,0.76,0.0,18.6,Spasticity management
+2,ILIO,Iliopsoas,0.358,0.36,0.155,0.08,0.571,0.0,18.3,Spasticity management
+3,GAS,Gastrocnemius,0.418,0.303,0.01,0.086,0.76,0.0,17.9,Spasticity management
+4,RF,Rectus femoris,0.339,0.36,0.109,0.09,0.56,0.0,17.4,Spasticity management
+5,HAM,Hamstrings,0.352,0.36,0.064,0.039,0.591,0.0,16.6,Spasticity management
+6,VAS,Vasti (quadriceps),0.222,0.394,0.007,0.063,0.0,0.0,10.2,Strengthening / motor control
+7,TA,Tibialis anterior,0.216,0.303,0.012,0.068,0.0,0.0,8.9,Strengthening / motor control
+8,GMED,Gluteus medius,0.101,0.36,0.041,0.137,0.0,0.0,8.8,Monitor
+9,ADD,Hip adductors,0.101,0.36,0.058,0.068,0.0,0.0,8.3,Monitor
+10,GMAX,Gluteus maximus,0.101,0.36,0.028,0.068,0.0,0.0,7.9,Monitor

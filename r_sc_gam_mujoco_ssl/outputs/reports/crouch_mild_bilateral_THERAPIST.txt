@@ -1,0 +1,835 @@
+==============================================================================
+R-SC-GAM-MJ-SSL  EXTENDED THERAPIST REPORT
+Generated: 2026-11-25 13:58
+Archetype: Crouch Gait  |  Severity: mild  |  Side: bilateral
+==============================================================================
+
+[ SECTION 1: R-SC-GAM ARCHETYPE MODEL ]
+==============================================================================
+R-SC-GAM  CLINICAL DECISION-SUPPORT REPORT  --  Crouch Gait
+==============================================================================
+Classification : Winters-Gage-Hicks Type IV / Rodda Group IV
+Typical GMFCS  : III-IV
+Description    : Excessive knee flexion throughout the cycle (never extends),
+ankle excessive dorsiflexion (calcaneus), flexed hip and anterior pelvic tilt.
+High quadriceps demand & energy cost; often follows over-lengthened heel cords
+(lever-arm disease).
+
+-- Kinematic deviation from normal (deg, at phase centres) ------------------
+ phase     IC     LR    MSt    TSt    PSw    ISw    MSw    TSw
+   hip  +22.1  +22.4  +23.5  +25.0  +22.0  +22.0  +22.0  +22.0
+  knee  +25.1  +25.6  +27.0  +26.5  +17.5   +4.5   +5.0  +18.0
+ ankle   +5.1   +5.8   +7.5  +10.0  +10.0   +8.8   +5.0   +5.0
+
+-- Spasticity rule findings (velocity-dependent) ----------------------------
+   [FLAG] Iliopsoas              score=0.76  evidence phases: TSt
+   [FLAG] Hamstrings             score=0.92  evidence phases: TSw,IC
+
+-- Weakness findings ---------------------------------------------------------
+   [WEAK] Vasti (quadriceps)     severity=0.60
+   [WEAK] Soleus                 severity=0.66
+   [WEAK] Gluteus maximus        severity=0.60
+
+-- Rehabilitation priority ranking ------------------------------------------
+rank muscle    RPI   spas  weak   dev  intervention
+   1    HAM   56.5   0.92  0.00  0.51  Spasticity management
+   2   ILIO   50.0   0.76  0.00  0.53  Spasticity management
+   3   GMAX   31.1   0.00  0.60  0.53  Strengthening / motor control
+   4    VAS   29.7   0.00  0.60  0.49  Strengthening / motor control
+   5    SOL   23.0   0.00  0.66  0.22  Strengthening / motor control
+   6   GMED   15.9   0.00  0.00  0.53  Biomechanical / orthotic
+   7    ADD   15.9   0.00  0.00  0.53  Biomechanical / orthotic
+   8     RF   15.3   0.00  0.00  0.51  Biomechanical / orthotic
+   9    GAS   11.0   0.00  0.00  0.36  Monitor
+  10     TA    6.5   0.00  0.00  0.22  Monitor
+
+-- Intervention rationale (top 3) -------------------------------------------
+   * Hamstrings (Spasticity management):
+       Velocity-dependent over-activity dominates. Stretching / serial
+       casting / focal BoNT-A; if multi-level & severe consider SDR or
+       tone-reducing surgery. Pair with antagonist strengthening +
+       orthosis.
+   * Iliopsoas (Spasticity management):
+       Velocity-dependent over-activity dominates. Stretching / serial
+       casting / focal BoNT-A; if multi-level & severe consider SDR or
+       tone-reducing surgery. Pair with antagonist strengthening +
+       orthosis.
+   * Gluteus maximus (Strengthening / motor control):
+       Weakness / poor timing dominates. Progressive resistance training,
+       FES or task-specific motor training; orthosis for compensation
+       while strength is rebuilt.
+
+-- Archetype clinical note ---------------------------------------------------
+   Quadriceps overload + plantarflexor/knee-extension lever-arm failure.
+   Strengthen quads & plantarflexors, hamstring lengthening, GRAFO
+   orthoses; surgical correction of lever-arm deformities. Avoid further
+   heel-cord lengthening.
+
+DISCLAIMER: literature-informed decision support, NOT a prescription. Confirm with instrumented 3D gait analysis, dynamic EMG and physical examination.
+==============================================================================
+
+[ SECTION 2: MECHANICAL SIMULATION SUMMARY ]
+Simulation mode: MuJoCo simulation completed successfully.
+
+Joint loading index summary (mean across phases, by joint):
+   left ankle : 0.292
+   left hip   : 0.364
+   left knee  : 0.426
+  right ankle : 0.292
+  right hip   : 0.365
+  right knee  : 0.427
+
+Top 3 mechanically loaded joint/phase combinations:
+  right hip TSt: JLI=0.710
+  -> High hip loading — may indicate proximal compensation or hip flexor
+     contribution.
+  left hip TSt: JLI=0.704
+  -> High hip loading — may indicate proximal compensation or hip flexor
+     contribution.
+  right knee PSw: JLI=0.632
+  -> High knee stance loading — consistent with crouch or flexed-knee
+     pattern.
+
+[ SECTION 3: ESTIMATED STRESS-STRAIN SUMMARY ]
+IMPORTANT: Values are approximate normalised estimates for research
+visualisation. They are NOT confirmed tissue mechanics.
+
+Top 5 muscles by estimated stress burden:
+  ILIO  Iliopsoas                 stress_burden=0.153  strain_burden=0.084
+  HAM   Hamstrings                stress_burden=0.083  strain_burden=0.039
+  RF    Rectus femoris            stress_burden=0.066  strain_burden=0.133
+  ADD   Hip adductors             stress_burden=0.066  strain_burden=0.071
+  GMED  Gluteus medius            stress_burden=0.041  strain_burden=0.144
+
+[ SECTION 4: REHABILITATION MECHANICAL RISK ]
+Top overloaded joint : KNEE
+Top overloaded muscle: Hamstrings
+Top phase of concern : PSw
+
+Primary rehab target:
+  Stance-phase extension support; plantarflexor contribution restoration.
+  Bilateral tone pattern control, step-width, pelvic stability.
+Secondary rehab target:
+  Hamstring lengthening; GRAFO or KAFO consideration.
+Compensation monitoring:
+  Avoid further heel-cord lengthening; monitor lever-arm deformity.
+Ongoing monitoring:
+  Quadriceps fatigue; patellofemoral stress; energy cost.
+
+[ SECTION 5: LIMITATIONS AND VALIDATION PATHWAY ]
+This report combines literature-encoded archetype reasoning (R-SC-GAM)
+with deterministic mechanical proxy calculations or MuJoCo physics
+simulation (R-SC-GAM-MJ-SSL). The mechanical outputs are SIMULATION-BASED
+HYPOTHESES, not measured patient data.
+
+Validation pathway:
+  1. Confirm archetype with instrumented 3D gait analysis (force plates + cameras).
+  2. Validate muscle recruitment with dynamic surface/fine-wire EMG.
+  3. Assess spasticity with MAS/Tardieu scale + passive ROM examination.
+  4. Compare simulation torque estimates with inverse dynamics from 3D data.
+  5. Obtain imaging (ultrasound/MRI) for muscle architecture if tissue detail needed.
+  6. All intervention decisions must be made by qualified clinicians.
+
+==============================================================================
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=
+COMPUTATIONAL FRAMEWORK DISCLAIMER
+R-SC-GAM-MJ-SSL produces: muscle recruitment likelihood, estimated actuator
+stress, estimated muscle-tendon strain, joint torque burden, mechanical loading
+index, and simulation-based hypothesis generation.
+It does NOT measure EMG, does NOT confirm tissue stress, does NOT diagnose CP,
+and does NOT prescribe treatment. Every output must be interpreted by a qualified
+clinician alongside instrumented 3D gait analysis, dynamic EMG, and physical
+examination.
+=

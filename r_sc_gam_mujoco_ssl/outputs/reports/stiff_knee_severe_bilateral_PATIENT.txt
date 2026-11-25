@@ -1,0 +1,37 @@
+PATIENT / PARENT WALKING PATTERN REPORT
+================================================================
+Pattern simulated: Stiff-Knee Gait
+Severity modelled: severe
+Side: bilateral
+
+YOUR WALKING PATTERN SUMMARY  --  closest match: Stiff-Knee Gait
+----------------------------------------------------------------
+Your walking pattern most closely resembles a recognised pattern
+called 'Stiff-Knee Gait'. In plain terms: reduced and delayed
+peak knee flexion in swing from rectus femoris co-spasticity,
+impairing foot clearance.
+
+What this means for your therapy focus:
+  - Rectus femoris: is working too hard / too tight -> focus on stretching & tone relief
+  - Soleus: just needs monitoring
+  - Gastrocnemius: just needs monitoring
+
+These are general, evidence-based directions. Your therapist or
+doctor will tailor the exact exercises, braces or treatments to
+you after an in-person assessment.
+
+----------------------------------------------------------------
+What the computer simulation added:
+The simulation estimated that the knee joint and Rectus femoris
+muscle group may be carrying more mechanical load than normal
+during the PSw phase of walking.
+
+Movement goal this simulation highlights:
+  Improve swing-phase knee flexion timing and reduce
+  compensatory hip motion. Bilateral tone pattern control, step-
+  width, pelvic stability.
+
+IMPORTANT: This report is produced by a computer model. It does
+NOT diagnose your child's condition or prescribe treatment. Your
+therapist and doctor will explain what these findings mean for
+your child's specific situation and plan therapy accordingly.

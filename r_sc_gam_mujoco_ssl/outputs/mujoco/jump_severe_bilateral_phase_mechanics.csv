@@ -1,0 +1,49 @@
+side,joint,phase,angle_deg,velocity_deg_per_gc,torque_proxy,contact_force_proxy,joint_loading_index,interpretation
+left,hip,IC,43.13,17.79,2.233,270.0,0.326,Elevated hip IC loading — left side asymmetry may be present.
+left,hip,LR,42.77,18.4,2.646,270.0,0.433,Elevated hip LR loading — left side asymmetry may be present.
+left,hip,MSt,35.54,64.97,4.808,270.0,0.518,High hip loading — may indicate proximal compensation or hip flexor contribution.
+left,hip,TSt,16.17,105.04,9.913,270.0,0.728,High hip loading — may indicate proximal compensation or hip flexor contribution.
+left,hip,PSw,7.36,30.61,4.146,270.0,0.408,Elevated hip PSw loading — left side asymmetry may be present.
+left,hip,ISw,16.22,106.83,7.604,0.0,0.235,Low loading — within expected range.
+left,hip,MSw,31.89,84.83,3.474,0.0,0.122,Low loading — within expected range.
+left,hip,TSw,40.54,36.08,1.765,0.0,0.078,Low loading — within expected range.
+left,knee,IC,13.92,34.75,2.894,270.0,0.361,Elevated knee IC loading — left side asymmetry may be present.
+left,knee,LR,17.77,77.93,2.236,270.0,0.542,High knee stance loading — consistent with crouch or flexed-knee pattern.
+left,knee,MSt,21.82,71.53,2.944,270.0,0.5,Elevated knee MSt loading — left side asymmetry may be present.
+left,knee,TSt,12.92,65.46,3.708,270.0,0.543,High knee stance loading — consistent with crouch or flexed-knee pattern.
+left,knee,PSw,19.56,97.41,4.102,270.0,0.518,High knee stance loading — consistent with crouch or flexed-knee pattern.
+left,knee,ISw,35.68,110.26,2.947,0.0,0.184,Low loading — within expected range.
+left,knee,MSw,35.6,142.36,5.317,0.0,0.199,Low loading — within expected range.
+left,knee,TSw,15.37,65.91,1.096,0.0,0.113,Low loading — within expected range.
+left,ankle,IC,-10.9,65.36,1.237,270.0,0.385,Moderate ankle stance loading — monitor plantarflexor contribution.
+left,ankle,LR,-14.58,54.59,0.497,270.0,0.466,Moderate ankle stance loading — monitor plantarflexor contribution.
+left,ankle,MSt,-12.57,39.26,0.533,270.0,0.403,Moderate ankle stance loading — monitor plantarflexor contribution.
+left,ankle,TSt,-5.07,40.21,0.455,270.0,0.437,Moderate ankle stance loading — monitor plantarflexor contribution.
+left,ankle,PSw,-8.67,150.86,1.789,270.0,0.572,High ankle stance loading — may indicate plantarflexor/equinus mechanical burden.
+left,ankle,ISw,-17.26,73.52,0.831,0.0,0.109,Low loading — within expected range.
+left,ankle,MSw,-8.6,30.28,0.233,0.0,0.034,Low loading — within expected range.
+left,ankle,TSw,-8.34,18.91,0.237,0.0,0.032,Low loading — within expected range.
+right,hip,IC,43.13,17.61,2.139,270.0,0.325,Elevated hip IC loading — right side asymmetry may be present.
+right,hip,LR,42.77,18.37,2.632,270.0,0.432,Elevated hip LR loading — right side asymmetry may be present.
+right,hip,MSt,35.53,65.01,4.799,270.0,0.518,High hip loading — may indicate proximal compensation or hip flexor contribution.
+right,hip,TSt,16.21,104.79,9.861,270.0,0.726,High hip loading — may indicate proximal compensation or hip flexor contribution.
+right,hip,PSw,7.39,30.12,4.197,270.0,0.408,Elevated hip PSw loading — right side asymmetry may be present.
+right,hip,ISw,16.22,106.93,7.696,0.0,0.237,Low loading — within expected range.
+right,hip,MSw,31.9,84.76,3.452,0.0,0.121,Low loading — within expected range.
+right,hip,TSw,40.54,36.13,1.709,0.0,0.077,Low loading — within expected range.
+right,knee,IC,13.93,34.72,2.88,270.0,0.36,Elevated knee IC loading — right side asymmetry may be present.
+right,knee,LR,17.77,77.76,2.227,270.0,0.541,High knee stance loading — consistent with crouch or flexed-knee pattern.
+right,knee,MSt,21.81,71.56,2.965,270.0,0.5,High knee stance loading — consistent with crouch or flexed-knee pattern.
+right,knee,TSt,12.88,64.99,3.664,270.0,0.541,High knee stance loading — consistent with crouch or flexed-knee pattern.
+right,knee,PSw,19.6,98.01,4.087,270.0,0.519,High knee stance loading — consistent with crouch or flexed-knee pattern.
+right,knee,ISw,35.65,109.9,3.029,0.0,0.185,Low loading — within expected range.
+right,knee,MSw,35.62,142.5,5.372,0.0,0.2,Low loading — within expected range.
+right,knee,TSw,15.36,65.66,1.025,0.0,0.112,Low loading — within expected range.
+right,ankle,IC,-10.9,65.36,1.237,270.0,0.385,Moderate ankle stance loading — monitor plantarflexor contribution.
+right,ankle,LR,-14.58,54.59,0.497,270.0,0.466,Moderate ankle stance loading — monitor plantarflexor contribution.
+right,ankle,MSt,-12.57,39.23,0.533,270.0,0.403,Moderate ankle stance loading — monitor plantarflexor contribution.
+right,ankle,TSt,-5.06,40.09,0.454,270.0,0.437,Moderate ankle stance loading — monitor plantarflexor contribution.
+right,ankle,PSw,-8.67,150.82,1.789,270.0,0.572,High ankle stance loading — may indicate plantarflexor/equinus mechanical burden.
+right,ankle,ISw,-17.26,73.57,0.832,0.0,0.109,Low loading — within expected range.
+right,ankle,MSw,-8.6,30.28,0.233,0.0,0.034,Low loading — within expected range.
+right,ankle,TSw,-8.34,18.9,0.236,0.0,0.032,Low loading — within expected range.

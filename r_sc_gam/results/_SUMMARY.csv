@@ -1,0 +1,7 @@
+key,name,top_muscle,top_RPI,top_intervention
+true_equinus,True Equinus,Soleus,47.3,Spasticity management
+jump,Jump Gait,Soleus,42.3,Spasticity management
+apparent_equinus,Apparent Equinus,Hamstrings,46.0,Spasticity management
+crouch,Crouch Gait,Hamstrings,56.5,Spasticity management
+stiff_knee,Stiff-Knee Gait,Rectus femoris,35.8,Spasticity management
+drop_foot,Drop Foot,Tibialis anterior,19.2,Strengthening / motor control

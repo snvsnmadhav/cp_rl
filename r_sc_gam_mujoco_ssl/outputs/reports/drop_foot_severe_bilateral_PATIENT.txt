@@ -1,0 +1,38 @@
+PATIENT / PARENT WALKING PATTERN REPORT
+================================================================
+Pattern simulated: Drop Foot
+Severity modelled: severe
+Side: bilateral
+
+YOUR WALKING PATTERN SUMMARY  --  closest match: Drop Foot
+----------------------------------------------------------------
+Your walking pattern most closely resembles a recognised pattern
+called 'Drop Foot'. In plain terms: insufficient swing-phase
+dorsiflexion (foot drop) with intact passive ankle rom; weak /
+poorly-timed dorsiflexors rather than spastic equinus.
+compensatory hip & knee flexion to clear foot.
+
+What this means for your therapy focus:
+  - Tibialis anterior: is weak -> focus on strengthening it
+  - Iliopsoas: just needs monitoring
+  - Hamstrings: just needs monitoring
+
+These are general, evidence-based directions. Your therapist or
+doctor will tailor the exact exercises, braces or treatments to
+you after an in-person assessment.
+
+----------------------------------------------------------------
+What the computer simulation added:
+The simulation estimated that the knee joint and Iliopsoas
+muscle group may be carrying more mechanical load than normal
+during the PSw phase of walking.
+
+Movement goal this simulation highlights:
+  Dorsiflexor strengthening / FES; leaf-spring AFO for
+  clearance. Bilateral tone pattern control, step-width, pelvic
+  stability.
+
+IMPORTANT: This report is produced by a computer model. It does
+NOT diagnose your child's condition or prescribe treatment. Your
+therapist and doctor will explain what these findings mean for
+your child's specific situation and plan therapy accordingly.

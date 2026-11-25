@@ -1,0 +1,38 @@
+PATIENT / PARENT WALKING PATTERN REPORT
+================================================================
+Pattern simulated: Jump Gait
+Severity modelled: mild
+Side: bilateral
+
+YOUR WALKING PATTERN SUMMARY  --  closest match: Jump Gait
+----------------------------------------------------------------
+Your walking pattern most closely resembles a recognised pattern
+called 'Jump Gait'. In plain terms: equinus ankle + flexed/stiff
+knee + flexed hip with increased anterior pelvic tilt. knee
+flexes at ic then partially extends in stance; reduced peak knee
+flexion in swing (stiff knee).
+
+What this means for your therapy focus:
+  - Soleus: is working too hard / too tight -> focus on stretching & tone relief
+  - Gastrocnemius: is working too hard / too tight -> focus on stretching & tone relief
+  - Iliopsoas: is working too hard / too tight -> focus on stretching & tone relief
+
+These are general, evidence-based directions. Your therapist or
+doctor will tailor the exact exercises, braces or treatments to
+you after an in-person assessment.
+
+----------------------------------------------------------------
+What the computer simulation added:
+The simulation estimated that the knee joint and Soleus muscle
+group may be carrying more mechanical load than normal during
+the PSw phase of walking.
+
+Movement goal this simulation highlights:
+  Multi-level spasticity management (BoNT-A / SEMLS); stance-
+  phase knee extension. Bilateral tone pattern control, step-
+  width, pelvic stability.
+
+IMPORTANT: This report is produced by a computer model. It does
+NOT diagnose your child's condition or prescribe treatment. Your
+therapist and doctor will explain what these findings mean for
+your child's specific situation and plan therapy accordingly.

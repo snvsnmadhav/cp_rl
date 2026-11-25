@@ -1,0 +1,161 @@
+side,muscle,full_name,phase,estimated_length_m,resting_length_m,estimated_strain,actuator_force_proxy,pcsa_cm2,estimated_stress_proxy,norm_stress,strain_burden,stress_burden,recruitment_likelihood,interpretation
+left,GAS,Gastrocnemius,IC,0.0511,0.055,-0.0707,1.19,30.0,0.04,0.001,0.0707,0.0011,0.12,High gastrocnemius-soleus strain supports equinus mechanical load hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+left,GAS,Gastrocnemius,LR,0.0524,0.055,-0.0469,0.79,30.0,0.026,0.001,0.0609,0.001,0.12,Low estimated burden — no specific mechanical concern flagged.
+left,GAS,Gastrocnemius,MSt,0.0556,0.055,0.0113,16.61,30.0,0.554,0.016,0.0135,0.019,1.0,Low estimated burden — no specific mechanical concern flagged.
+left,GAS,Gastrocnemius,TSt,0.0572,0.055,0.0401,9.09,30.0,0.303,0.009,0.0522,0.0113,1.0,Low estimated burden — no specific mechanical concern flagged.
+left,GAS,Gastrocnemius,PSw,0.0537,0.055,-0.0239,6.81,30.0,0.227,0.006,0.0263,0.0071,0.12,Low estimated burden — no specific mechanical concern flagged.
+left,GAS,Gastrocnemius,ISw,0.0501,0.055,-0.09,1.54,30.0,0.051,0.001,0.081,0.0013,0.12,High gastrocnemius-soleus strain supports equinus mechanical load hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+left,GAS,Gastrocnemius,MSw,0.0494,0.055,-0.1014,1.06,30.0,0.035,0.001,0.071,0.0007,0.12,High gastrocnemius-soleus strain supports equinus mechanical load hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+left,GAS,Gastrocnemius,TSw,0.0495,0.055,-0.0992,0.12,30.0,0.004,0.0,0.0992,0.0001,0.12,High gastrocnemius-soleus strain supports equinus mechanical load hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+left,SOL,Soleus,IC,0.0355,0.04,-0.1114,1.24,52.0,0.024,0.001,0.1114,0.0007,0.12,High gastrocnemius-soleus strain supports equinus mechanical load hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+left,SOL,Soleus,LR,0.0367,0.04,-0.0821,0.83,52.0,0.016,0.0,0.1067,0.0006,0.12,High gastrocnemius-soleus strain supports equinus mechanical load hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+left,SOL,Soleus,MSt,0.0395,0.04,-0.0115,17.3,52.0,0.333,0.01,0.0138,0.0114,1.0,Low estimated burden — no specific mechanical concern flagged.
+left,SOL,Soleus,TSt,0.0407,0.04,0.0178,9.47,52.0,0.182,0.005,0.0231,0.0068,1.0,Low estimated burden — no specific mechanical concern flagged.
+left,SOL,Soleus,PSw,0.0371,0.04,-0.0733,59.08,52.0,1.136,0.032,0.0806,0.0357,1.0,High gastrocnemius-soleus strain supports equinus mechanical load hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+left,SOL,Soleus,ISw,0.033,0.04,-0.1759,1.61,52.0,0.031,0.001,0.1583,0.0008,0.12,High gastrocnemius-soleus strain supports equinus mechanical load hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+left,SOL,Soleus,MSw,0.0324,0.04,-0.1906,1.11,52.0,0.021,0.001,0.1334,0.0004,0.12,High gastrocnemius-soleus strain supports equinus mechanical load hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+left,SOL,Soleus,TSw,0.0335,0.04,-0.1613,0.13,52.0,0.002,0.0,0.1613,0.0001,0.12,High gastrocnemius-soleus strain supports equinus mechanical load hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+left,TA,Tibialis anterior,IC,0.0616,0.065,-0.0529,3.93,9.8,0.401,0.011,0.0529,0.0115,0.292,Low estimated burden — no specific mechanical concern flagged.
+left,TA,Tibialis anterior,LR,0.0625,0.065,-0.0389,2.61,9.8,0.266,0.008,0.0506,0.0099,0.292,Low estimated burden — no specific mechanical concern flagged.
+left,TA,Tibialis anterior,MSt,0.0646,0.065,-0.0055,2.69,9.8,0.275,0.008,0.0066,0.0094,0.12,Low estimated burden — no specific mechanical concern flagged.
+left,TA,Tibialis anterior,TSt,0.0655,0.065,0.0084,1.47,9.8,0.15,0.004,0.011,0.0056,0.12,Low estimated burden — no specific mechanical concern flagged.
+left,TA,Tibialis anterior,PSw,0.0627,0.065,-0.0348,9.2,9.8,0.939,0.027,0.0382,0.0295,0.12,Low estimated burden — no specific mechanical concern flagged.
+left,TA,Tibialis anterior,ISw,0.0596,0.065,-0.0835,5.07,9.8,0.517,0.015,0.0751,0.0133,0.292,High tibialis anterior strain in swing — may support drop-foot or clearance deficit; bilateral pattern — consistent with diplegic spasticity distribution.
+left,TA,Tibialis anterior,MSw,0.0591,0.065,-0.0904,3.49,9.8,0.356,0.01,0.0633,0.0071,0.292,High tibialis anterior strain in swing — may support drop-foot or clearance deficit; bilateral pattern — consistent with diplegic spasticity distribution.
+left,TA,Tibialis anterior,TSw,0.06,0.065,-0.0765,0.4,9.8,0.04,0.001,0.0765,0.0012,0.292,High strain mechanical burden detected — contextualise with archetype and clinical findings; bilateral pattern — consistent with diplegic spasticity distribution.
+left,RF,Rectus femoris,IC,0.0861,0.084,0.0255,18.3,15.0,1.22,0.035,0.0255,0.0349,0.271,Low estimated burden — no specific mechanical concern flagged.
+left,RF,Rectus femoris,LR,0.0864,0.084,0.0284,19.12,15.0,1.274,0.036,0.037,0.0473,0.271,Low estimated burden — no specific mechanical concern flagged.
+left,RF,Rectus femoris,MSt,0.0871,0.084,0.0368,23.65,15.0,1.576,0.045,0.0442,0.054,0.271,Low estimated burden — no specific mechanical concern flagged.
+left,RF,Rectus femoris,TSt,0.0881,0.084,0.0487,16.26,15.0,1.084,0.031,0.0633,0.0403,0.271,Low estimated burden — no specific mechanical concern flagged.
+left,RF,Rectus femoris,PSw,0.0888,0.084,0.0577,185.33,15.0,12.355,0.353,0.0634,0.3883,1.0,Low estimated burden — no specific mechanical concern flagged.
+left,RF,Rectus femoris,ISw,0.0901,0.084,0.0722,88.96,15.0,5.93,0.169,0.065,0.1525,1.0,High rectus femoris burden during swing supports stiff-knee recruitment hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+left,RF,Rectus femoris,MSw,0.0898,0.084,0.0685,21.28,15.0,1.419,0.041,0.048,0.0284,0.12,High rectus femoris burden during swing supports stiff-knee recruitment hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+left,RF,Rectus femoris,TSw,0.0873,0.084,0.0391,16.52,15.0,1.101,0.031,0.0391,0.0315,0.12,Low estimated burden — no specific mechanical concern flagged.
+left,HAM,Hamstrings,IC,0.0952,0.095,0.0022,63.34,25.0,2.534,0.072,0.0022,0.0724,1.0,Low estimated burden — no specific mechanical concern flagged.
+left,HAM,Hamstrings,LR,0.0952,0.095,0.0026,66.15,25.0,2.646,0.076,0.0034,0.0983,1.0,Low estimated burden — no specific mechanical concern flagged.
+left,HAM,Hamstrings,MSt,0.0953,0.095,0.0037,22.17,25.0,0.887,0.025,0.0044,0.0304,0.271,Low estimated burden — no specific mechanical concern flagged.
+left,HAM,Hamstrings,TSt,0.0955,0.095,0.0052,15.24,25.0,0.61,0.017,0.0068,0.0226,0.271,Low estimated burden — no specific mechanical concern flagged.
+left,HAM,Hamstrings,PSw,0.0956,0.095,0.0063,47.07,25.0,1.883,0.054,0.007,0.0592,0.271,Low estimated burden — no specific mechanical concern flagged.
+left,HAM,Hamstrings,ISw,0.0964,0.095,0.0145,10.01,25.0,0.4,0.011,0.013,0.0103,0.12,Low estimated burden — no specific mechanical concern flagged.
+left,HAM,Hamstrings,MSw,0.0966,0.095,0.017,19.95,25.0,0.798,0.023,0.0119,0.016,0.12,Low estimated burden — no specific mechanical concern flagged.
+left,HAM,Hamstrings,TSw,0.0957,0.095,0.007,129.05,25.0,5.162,0.147,0.007,0.1475,1.0,Low estimated burden — no specific mechanical concern flagged.
+left,ILIO,Iliopsoas,IC,0.1222,0.12,0.0187,7.29,12.0,0.607,0.017,0.0187,0.0173,0.271,Low estimated burden — no specific mechanical concern flagged.
+left,ILIO,Iliopsoas,LR,0.1225,0.12,0.0208,11.7,12.0,0.975,0.028,0.0271,0.0362,0.271,Low estimated burden — no specific mechanical concern flagged.
+left,ILIO,Iliopsoas,MSt,0.1232,0.12,0.0267,24.6,12.0,2.05,0.059,0.032,0.0703,0.271,Low estimated burden — no specific mechanical concern flagged.
+left,ILIO,Iliopsoas,TSt,0.1242,0.12,0.0351,27.29,12.0,2.274,0.065,0.0456,0.0845,0.271,Low estimated burden — no specific mechanical concern flagged.
+left,ILIO,Iliopsoas,PSw,0.125,0.12,0.0413,150.51,12.0,12.542,0.358,0.0455,0.3942,1.0,Low estimated burden — no specific mechanical concern flagged.
+left,ILIO,Iliopsoas,ISw,0.1255,0.12,0.0461,163.91,12.0,13.659,0.39,0.0415,0.3512,1.0,Low estimated burden — no specific mechanical concern flagged.
+left,ILIO,Iliopsoas,MSw,0.1249,0.12,0.041,3.88,12.0,0.323,0.009,0.0287,0.0065,0.12,Low estimated burden — no specific mechanical concern flagged.
+left,ILIO,Iliopsoas,TSw,0.1231,0.12,0.0257,2.77,12.0,0.231,0.007,0.0257,0.0066,0.12,Low estimated burden — no specific mechanical concern flagged.
+left,ADD,Hip adductors,IC,0.1321,0.13,0.0159,3.52,18.0,0.196,0.006,0.0159,0.0056,0.12,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+left,ADD,Hip adductors,LR,0.1323,0.13,0.0176,5.65,18.0,0.314,0.009,0.0229,0.0117,0.12,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+left,ADD,Hip adductors,MSt,0.1329,0.13,0.0226,11.89,18.0,0.66,0.019,0.0271,0.0226,0.12,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+left,ADD,Hip adductors,TSt,0.1339,0.13,0.0297,13.19,18.0,0.733,0.021,0.0386,0.0272,0.12,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+left,ADD,Hip adductors,PSw,0.1345,0.13,0.035,164.19,18.0,9.122,0.261,0.0385,0.2867,1.0,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+left,ADD,Hip adductors,ISw,0.1351,0.13,0.039,178.81,18.0,9.934,0.284,0.0351,0.2554,1.0,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+left,ADD,Hip adductors,MSw,0.1345,0.13,0.0347,4.23,18.0,0.235,0.007,0.0243,0.0047,0.12,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+left,ADD,Hip adductors,TSw,0.1328,0.13,0.0217,3.02,18.0,0.168,0.005,0.0217,0.0048,0.12,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+left,GMED,Gluteus medius,IC,0.0722,0.07,0.0321,26.89,22.0,1.222,0.035,0.0321,0.0349,1.0,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+left,GMED,Gluteus medius,LR,0.0725,0.07,0.0357,43.18,22.0,1.963,0.056,0.0464,0.0729,1.0,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+left,GMED,Gluteus medius,MSt,0.0732,0.07,0.0458,90.8,22.0,4.127,0.118,0.0549,0.1415,1.0,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+left,GMED,Gluteus medius,TSt,0.0742,0.07,0.0601,12.09,22.0,0.549,0.016,0.0781,0.0204,0.12,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+left,GMED,Gluteus medius,PSw,0.075,0.07,0.0709,18.06,22.0,0.821,0.023,0.078,0.0258,0.12,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+left,GMED,Gluteus medius,ISw,0.0755,0.07,0.0791,19.67,22.0,0.894,0.026,0.0712,0.023,0.12,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+left,GMED,Gluteus medius,MSw,0.0749,0.07,0.0702,3.88,22.0,0.176,0.005,0.0491,0.0035,0.12,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+left,GMED,Gluteus medius,TSw,0.0731,0.07,0.044,2.77,22.0,0.126,0.004,0.044,0.0036,0.12,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+left,GMAX,Gluteus maximus,IC,0.1473,0.145,0.016,26.02,32.0,0.813,0.023,0.016,0.0232,1.0,Low estimated burden — no specific mechanical concern flagged.
+left,GMAX,Gluteus maximus,LR,0.1476,0.145,0.0178,41.78,32.0,1.306,0.037,0.0232,0.0485,1.0,Low estimated burden — no specific mechanical concern flagged.
+left,GMAX,Gluteus maximus,MSt,0.1483,0.145,0.0228,10.54,32.0,0.33,0.009,0.0274,0.0113,0.12,Low estimated burden — no specific mechanical concern flagged.
+left,GMAX,Gluteus maximus,TSt,0.1493,0.145,0.03,11.7,32.0,0.366,0.01,0.039,0.0136,0.12,Low estimated burden — no specific mechanical concern flagged.
+left,GMAX,Gluteus maximus,PSw,0.1501,0.145,0.0354,17.48,32.0,0.546,0.016,0.0389,0.0172,0.12,Low estimated burden — no specific mechanical concern flagged.
+left,GMAX,Gluteus maximus,ISw,0.1507,0.145,0.0395,19.03,32.0,0.595,0.017,0.0355,0.0153,0.12,Low estimated burden — no specific mechanical concern flagged.
+left,GMAX,Gluteus maximus,MSw,0.1501,0.145,0.035,3.76,32.0,0.117,0.003,0.0245,0.0023,0.12,Low estimated burden — no specific mechanical concern flagged.
+left,GMAX,Gluteus maximus,TSw,0.1482,0.145,0.022,22.33,32.0,0.698,0.02,0.022,0.0199,1.0,Low estimated burden — no specific mechanical concern flagged.
+left,VAS,Vasti (quadriceps),IC,0.0711,0.07,0.015,72.39,55.0,1.316,0.038,0.015,0.0376,1.0,Low estimated burden — no specific mechanical concern flagged.
+left,VAS,Vasti (quadriceps),LR,0.0712,0.07,0.0169,75.6,55.0,1.375,0.039,0.0219,0.0511,1.0,Low estimated burden — no specific mechanical concern flagged.
+left,VAS,Vasti (quadriceps),MSt,0.0715,0.07,0.022,11.22,55.0,0.204,0.006,0.0264,0.007,0.12,Low estimated burden — no specific mechanical concern flagged.
+left,VAS,Vasti (quadriceps),TSt,0.0721,0.07,0.0293,7.72,55.0,0.14,0.004,0.0381,0.0052,0.12,Low estimated burden — no specific mechanical concern flagged.
+left,VAS,Vasti (quadriceps),PSw,0.0724,0.07,0.0348,23.83,55.0,0.433,0.012,0.0383,0.0136,0.12,Low estimated burden — no specific mechanical concern flagged.
+left,VAS,Vasti (quadriceps),ISw,0.0733,0.07,0.0476,11.44,55.0,0.208,0.006,0.0429,0.0053,0.12,Low estimated burden — no specific mechanical concern flagged.
+left,VAS,Vasti (quadriceps),MSw,0.0733,0.07,0.0472,22.8,55.0,0.415,0.012,0.0331,0.0083,0.12,Low estimated burden — no specific mechanical concern flagged.
+left,VAS,Vasti (quadriceps),TSw,0.0718,0.07,0.0252,147.49,55.0,2.682,0.077,0.0252,0.0766,1.0,Low estimated burden — no specific mechanical concern flagged.
+right,GAS,Gastrocnemius,IC,0.0511,0.055,-0.0707,1.2,30.0,0.04,0.001,0.0707,0.0011,0.12,High gastrocnemius-soleus strain supports equinus mechanical load hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+right,GAS,Gastrocnemius,LR,0.0524,0.055,-0.0469,0.79,30.0,0.026,0.001,0.0609,0.001,0.12,Low estimated burden — no specific mechanical concern flagged.
+right,GAS,Gastrocnemius,MSt,0.0556,0.055,0.0113,16.72,30.0,0.557,0.016,0.0135,0.0191,1.0,Low estimated burden — no specific mechanical concern flagged.
+right,GAS,Gastrocnemius,TSt,0.0572,0.055,0.0401,9.13,30.0,0.304,0.009,0.0522,0.0113,1.0,Low estimated burden — no specific mechanical concern flagged.
+right,GAS,Gastrocnemius,PSw,0.0537,0.055,-0.0239,6.81,30.0,0.227,0.006,0.0263,0.0071,0.12,Low estimated burden — no specific mechanical concern flagged.
+right,GAS,Gastrocnemius,ISw,0.0501,0.055,-0.09,1.54,30.0,0.051,0.001,0.081,0.0013,0.12,High gastrocnemius-soleus strain supports equinus mechanical load hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+right,GAS,Gastrocnemius,MSw,0.0494,0.055,-0.1014,1.06,30.0,0.035,0.001,0.071,0.0007,0.12,High gastrocnemius-soleus strain supports equinus mechanical load hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+right,GAS,Gastrocnemius,TSw,0.0495,0.055,-0.0992,0.12,30.0,0.004,0.0,0.0992,0.0001,0.12,High gastrocnemius-soleus strain supports equinus mechanical load hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+right,SOL,Soleus,IC,0.0355,0.04,-0.1114,1.25,52.0,0.024,0.001,0.1114,0.0007,0.12,High gastrocnemius-soleus strain supports equinus mechanical load hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+right,SOL,Soleus,LR,0.0367,0.04,-0.0821,0.83,52.0,0.016,0.0,0.1067,0.0006,0.12,High gastrocnemius-soleus strain supports equinus mechanical load hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+right,SOL,Soleus,MSt,0.0395,0.04,-0.0115,17.41,52.0,0.335,0.01,0.0138,0.0115,1.0,Low estimated burden — no specific mechanical concern flagged.
+right,SOL,Soleus,TSt,0.0407,0.04,0.0178,9.51,52.0,0.183,0.005,0.0231,0.0068,1.0,Low estimated burden — no specific mechanical concern flagged.
+right,SOL,Soleus,PSw,0.0371,0.04,-0.0733,59.09,52.0,1.136,0.032,0.0806,0.0357,1.0,High gastrocnemius-soleus strain supports equinus mechanical load hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+right,SOL,Soleus,ISw,0.033,0.04,-0.1759,1.6,52.0,0.031,0.001,0.1583,0.0008,0.12,High gastrocnemius-soleus strain supports equinus mechanical load hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+right,SOL,Soleus,MSw,0.0324,0.04,-0.1906,1.11,52.0,0.021,0.001,0.1334,0.0004,0.12,High gastrocnemius-soleus strain supports equinus mechanical load hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+right,SOL,Soleus,TSw,0.0335,0.04,-0.1613,0.12,52.0,0.002,0.0,0.1613,0.0001,0.12,High gastrocnemius-soleus strain supports equinus mechanical load hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+right,TA,Tibialis anterior,IC,0.0616,0.065,-0.0529,3.94,9.8,0.402,0.011,0.0529,0.0115,0.292,Low estimated burden — no specific mechanical concern flagged.
+right,TA,Tibialis anterior,LR,0.0625,0.065,-0.0389,2.61,9.8,0.266,0.008,0.0506,0.0099,0.292,Low estimated burden — no specific mechanical concern flagged.
+right,TA,Tibialis anterior,MSt,0.0646,0.065,-0.0055,2.71,9.8,0.277,0.008,0.0066,0.0095,0.12,Low estimated burden — no specific mechanical concern flagged.
+right,TA,Tibialis anterior,TSt,0.0655,0.065,0.0084,1.48,9.8,0.151,0.004,0.011,0.0056,0.12,Low estimated burden — no specific mechanical concern flagged.
+right,TA,Tibialis anterior,PSw,0.0627,0.065,-0.0348,9.2,9.8,0.939,0.027,0.0382,0.0295,0.12,Low estimated burden — no specific mechanical concern flagged.
+right,TA,Tibialis anterior,ISw,0.0596,0.065,-0.0835,5.06,9.8,0.517,0.015,0.0751,0.0133,0.292,High tibialis anterior strain in swing — may support drop-foot or clearance deficit; bilateral pattern — consistent with diplegic spasticity distribution.
+right,TA,Tibialis anterior,MSw,0.0591,0.065,-0.0904,3.49,9.8,0.357,0.01,0.0633,0.0071,0.292,High tibialis anterior strain in swing — may support drop-foot or clearance deficit; bilateral pattern — consistent with diplegic spasticity distribution.
+right,TA,Tibialis anterior,TSw,0.06,0.065,-0.0765,0.39,9.8,0.04,0.001,0.0765,0.0011,0.292,High strain mechanical burden detected — contextualise with archetype and clinical findings; bilateral pattern — consistent with diplegic spasticity distribution.
+right,RF,Rectus femoris,IC,0.0861,0.084,0.0255,18.33,15.0,1.222,0.035,0.0255,0.0349,0.271,Low estimated burden — no specific mechanical concern flagged.
+right,RF,Rectus femoris,LR,0.0864,0.084,0.0284,19.18,15.0,1.279,0.037,0.037,0.0475,0.271,Low estimated burden — no specific mechanical concern flagged.
+right,RF,Rectus femoris,MSt,0.0871,0.084,0.0368,23.23,15.0,1.549,0.044,0.0442,0.0531,0.271,Low estimated burden — no specific mechanical concern flagged.
+right,RF,Rectus femoris,TSt,0.0881,0.084,0.0487,15.69,15.0,1.046,0.03,0.0633,0.0389,0.271,Low estimated burden — no specific mechanical concern flagged.
+right,RF,Rectus femoris,PSw,0.0888,0.084,0.0577,185.63,15.0,12.375,0.354,0.0634,0.3889,1.0,Low estimated burden — no specific mechanical concern flagged.
+right,RF,Rectus femoris,ISw,0.0901,0.084,0.0722,87.63,15.0,5.842,0.167,0.065,0.1502,1.0,High rectus femoris burden during swing supports stiff-knee recruitment hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+right,RF,Rectus femoris,MSw,0.0898,0.084,0.0685,21.45,15.0,1.43,0.041,0.048,0.0286,0.12,High rectus femoris burden during swing supports stiff-knee recruitment hypothesis; bilateral pattern — consistent with diplegic spasticity distribution.
+right,RF,Rectus femoris,TSw,0.0873,0.084,0.0391,16.46,15.0,1.097,0.031,0.0391,0.0314,0.12,Low estimated burden — no specific mechanical concern flagged.
+right,HAM,Hamstrings,IC,0.0952,0.095,0.0022,63.42,25.0,2.537,0.072,0.0022,0.0725,1.0,Low estimated burden — no specific mechanical concern flagged.
+right,HAM,Hamstrings,LR,0.0952,0.095,0.0026,66.38,25.0,2.655,0.076,0.0034,0.0986,1.0,Low estimated burden — no specific mechanical concern flagged.
+right,HAM,Hamstrings,MSt,0.0953,0.095,0.0037,21.78,25.0,0.871,0.025,0.0044,0.0299,0.271,Low estimated burden — no specific mechanical concern flagged.
+right,HAM,Hamstrings,TSt,0.0955,0.095,0.0052,14.71,25.0,0.588,0.017,0.0068,0.0219,0.271,Low estimated burden — no specific mechanical concern flagged.
+right,HAM,Hamstrings,PSw,0.0956,0.095,0.0063,47.15,25.0,1.886,0.054,0.007,0.0593,0.271,Low estimated burden — no specific mechanical concern flagged.
+right,HAM,Hamstrings,ISw,0.0964,0.095,0.0145,9.86,25.0,0.394,0.011,0.013,0.0101,0.12,Low estimated burden — no specific mechanical concern flagged.
+right,HAM,Hamstrings,MSw,0.0966,0.095,0.017,20.11,25.0,0.804,0.023,0.0119,0.0161,0.12,Low estimated burden — no specific mechanical concern flagged.
+right,HAM,Hamstrings,TSw,0.0957,0.095,0.007,128.59,25.0,5.144,0.147,0.007,0.147,1.0,Low estimated burden — no specific mechanical concern flagged.
+right,ILIO,Iliopsoas,IC,0.1222,0.12,0.0187,7.19,12.0,0.599,0.017,0.0187,0.0171,0.271,Low estimated burden — no specific mechanical concern flagged.
+right,ILIO,Iliopsoas,LR,0.1225,0.12,0.0208,11.69,12.0,0.974,0.028,0.0271,0.0362,0.271,Low estimated burden — no specific mechanical concern flagged.
+right,ILIO,Iliopsoas,MSt,0.1232,0.12,0.0267,24.14,12.0,2.012,0.057,0.032,0.069,0.271,Low estimated burden — no specific mechanical concern flagged.
+right,ILIO,Iliopsoas,TSt,0.1242,0.12,0.0351,27.65,12.0,2.304,0.066,0.0456,0.0856,0.271,Low estimated burden — no specific mechanical concern flagged.
+right,ILIO,Iliopsoas,PSw,0.125,0.12,0.0413,154.32,12.0,12.86,0.367,0.0455,0.4042,1.0,Low estimated burden — no specific mechanical concern flagged.
+right,ILIO,Iliopsoas,ISw,0.1255,0.12,0.0461,167.37,12.0,13.947,0.398,0.0415,0.3586,1.0,Low estimated burden — no specific mechanical concern flagged.
+right,ILIO,Iliopsoas,MSw,0.1249,0.12,0.041,3.64,12.0,0.303,0.009,0.0287,0.0061,0.12,Low estimated burden — no specific mechanical concern flagged.
+right,ILIO,Iliopsoas,TSw,0.1231,0.12,0.0257,2.75,12.0,0.23,0.007,0.0257,0.0066,0.12,Low estimated burden — no specific mechanical concern flagged.
+right,ADD,Hip adductors,IC,0.1321,0.13,0.0159,3.47,18.0,0.193,0.006,0.0159,0.0055,0.12,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+right,ADD,Hip adductors,LR,0.1323,0.13,0.0176,5.65,18.0,0.314,0.009,0.0229,0.0117,0.12,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+right,ADD,Hip adductors,MSt,0.1329,0.13,0.0226,11.67,18.0,0.648,0.019,0.0271,0.0222,0.12,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+right,ADD,Hip adductors,TSt,0.1339,0.13,0.0297,13.36,18.0,0.742,0.021,0.0386,0.0276,0.12,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+right,ADD,Hip adductors,PSw,0.1345,0.13,0.035,168.35,18.0,9.353,0.267,0.0385,0.2939,1.0,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+right,ADD,Hip adductors,ISw,0.1351,0.13,0.039,182.58,18.0,10.144,0.29,0.0351,0.2608,1.0,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+right,ADD,Hip adductors,MSw,0.1345,0.13,0.0347,3.97,18.0,0.221,0.006,0.0243,0.0044,0.12,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+right,ADD,Hip adductors,TSw,0.1328,0.13,0.0217,3.01,18.0,0.167,0.005,0.0217,0.0048,0.12,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+right,GMED,Gluteus medius,IC,0.0722,0.07,0.0321,26.53,22.0,1.206,0.034,0.0321,0.0344,1.0,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+right,GMED,Gluteus medius,LR,0.0725,0.07,0.0357,43.14,22.0,1.961,0.056,0.0464,0.0728,1.0,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+right,GMED,Gluteus medius,MSt,0.0732,0.07,0.0458,89.12,22.0,4.051,0.116,0.0549,0.1389,1.0,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+right,GMED,Gluteus medius,TSt,0.0742,0.07,0.0601,12.25,22.0,0.557,0.016,0.0781,0.0207,0.12,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+right,GMED,Gluteus medius,PSw,0.075,0.07,0.0709,18.52,22.0,0.842,0.024,0.078,0.0265,0.12,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+right,GMED,Gluteus medius,ISw,0.0755,0.07,0.0791,20.08,22.0,0.913,0.026,0.0712,0.0235,0.12,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+right,GMED,Gluteus medius,MSw,0.0749,0.07,0.0702,3.64,22.0,0.166,0.005,0.0491,0.0033,0.12,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+right,GMED,Gluteus medius,TSw,0.0731,0.07,0.044,2.75,22.0,0.125,0.004,0.044,0.0036,0.12,Adductor/scissoring or gluteus medius burden is rule-based here because the current model is sagittal-dominant. Frontal-plane kinematics required for reliable estimate.
+right,GMAX,Gluteus maximus,IC,0.1473,0.145,0.016,25.67,32.0,0.802,0.023,0.016,0.0229,1.0,Low estimated burden — no specific mechanical concern flagged.
+right,GMAX,Gluteus maximus,LR,0.1476,0.145,0.0178,41.75,32.0,1.305,0.037,0.0232,0.0485,1.0,Low estimated burden — no specific mechanical concern flagged.
+right,GMAX,Gluteus maximus,MSt,0.1483,0.145,0.0228,10.35,32.0,0.323,0.009,0.0274,0.0111,0.12,Low estimated burden — no specific mechanical concern flagged.
+right,GMAX,Gluteus maximus,TSt,0.1493,0.145,0.03,11.85,32.0,0.37,0.011,0.039,0.0138,0.12,Low estimated burden — no specific mechanical concern flagged.
+right,GMAX,Gluteus maximus,PSw,0.1501,0.145,0.0354,17.92,32.0,0.56,0.016,0.0389,0.0176,0.12,Low estimated burden — no specific mechanical concern flagged.
+right,GMAX,Gluteus maximus,ISw,0.1507,0.145,0.0395,19.44,32.0,0.607,0.017,0.0355,0.0156,0.12,Low estimated burden — no specific mechanical concern flagged.
+right,GMAX,Gluteus maximus,MSw,0.1501,0.145,0.035,3.52,32.0,0.11,0.003,0.0245,0.0022,0.12,Low estimated burden — no specific mechanical concern flagged.
+right,GMAX,Gluteus maximus,TSw,0.1482,0.145,0.022,22.21,32.0,0.694,0.02,0.022,0.0198,1.0,Low estimated burden — no specific mechanical concern flagged.
+right,VAS,Vasti (quadriceps),IC,0.0711,0.07,0.015,72.48,55.0,1.318,0.038,0.015,0.0377,1.0,Low estimated burden — no specific mechanical concern flagged.
+right,VAS,Vasti (quadriceps),LR,0.0712,0.07,0.0169,75.86,55.0,1.379,0.039,0.0219,0.0512,1.0,Low estimated burden — no specific mechanical concern flagged.
+right,VAS,Vasti (quadriceps),MSt,0.0715,0.07,0.022,11.03,55.0,0.2,0.006,0.0264,0.0069,0.12,Low estimated burden — no specific mechanical concern flagged.
+right,VAS,Vasti (quadriceps),TSt,0.0721,0.07,0.0293,7.45,55.0,0.135,0.004,0.0381,0.005,0.12,Low estimated burden — no specific mechanical concern flagged.
+right,VAS,Vasti (quadriceps),PSw,0.0724,0.07,0.0348,23.87,55.0,0.434,0.012,0.0383,0.0136,0.12,Low estimated burden — no specific mechanical concern flagged.
+right,VAS,Vasti (quadriceps),ISw,0.0733,0.07,0.0476,11.27,55.0,0.205,0.006,0.0429,0.0053,0.12,Low estimated burden — no specific mechanical concern flagged.
+right,VAS,Vasti (quadriceps),MSw,0.0733,0.07,0.0472,22.98,55.0,0.418,0.012,0.0331,0.0084,0.12,Low estimated burden — no specific mechanical concern flagged.
+right,VAS,Vasti (quadriceps),TSw,0.0718,0.07,0.0252,146.96,55.0,2.672,0.076,0.0252,0.0763,1.0,Low estimated burden — no specific mechanical concern flagged.
